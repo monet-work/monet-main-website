@@ -42,7 +42,7 @@ function Navbar({}: Props) {
   ];
   return (
     <nav className="w-full">
-      <div className="w-full bg-black/20 backdrop-blur-sm items-center flex justify-evenly border-b-white/10 border-b fixed z-50 py-3 top-0 px-10">
+      <div className="w-full bg-black/20 backdrop-blur items-center flex justify-evenly border-b-white/10 border-b fixed z-50 py-3 top-0 px-10">
         <MonetWorkLogo className="w-28 " />
         <div
           className={cn(
@@ -54,7 +54,7 @@ function Navbar({}: Props) {
               key={`link=${idx}`}
               href={navItem.link}
               className={
-                "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
+                "relative hidden dark:text-neutral-50 items-center lg:flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
               }
             >
               <span className="block sm:hidden">{navItem.icon}</span>

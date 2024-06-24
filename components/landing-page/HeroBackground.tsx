@@ -1,5 +1,4 @@
 import Spline from "@splinetool/react-spline/next";
-
 export default function HeroBackground() {
   return (
     <div className="w-full h-screen  bg-black absolute top-0 left-0 ">
